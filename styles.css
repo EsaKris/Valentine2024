@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 36px;
+  }
+  .red-text {
+    color: red;
+  }
+  
+  input {
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  button {
+    width: 200px;
+    height: 60px;
+    font-size: 28px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  #envelope {
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: url('img/2.png'); /* Updated image file name */
+    background-size: cover;
+    display: none;
+    border-radius: 20px; /* Added border-radius for envelope */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Added shadow effect */
+  }
+  
+  #message-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  #message {
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    display: none;
+  }
+  
+  #message img {
+    display: block;
+    margin: 0 auto; /* Centralize the image */
+  }
+  
