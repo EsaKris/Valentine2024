@@ -31,7 +31,7 @@ submit.addEventListener("click", function() {
         // Create a new image element
         let image = document.createElement("img");
         // Set the image source
-        image.src = "img/1.png"; // Assuming the image is located in the "img" directory
+        image.src = "1.png"; // Assuming the image is located in the "img" directory
         // Set any additional attributes if needed
         image.alt = "Valentine's Day Image";
         // Apply styles for the image
