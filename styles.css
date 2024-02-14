@@ -37,7 +37,7 @@
     width: 400px;
     height: 300px;
     margin: 50px auto;
-    background-image: url('2.png'); /* Updated image file name */
+    background-image: url('img/2.png'); /* Updated image file name */
     background-size: cover;
     display: none;
     border-radius: 20px; /* Added border-radius for envelope */
