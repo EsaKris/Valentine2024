@@ -40,7 +40,7 @@ submit.addEventListener("click", function() {
         // Append the image to the message container
         messageContainer.appendChild(image);
   
-        messageContainer.innerHTML += "<br><br>My dearest baby " + nameValue + ", on this Valentine's Day, I want you to know how much you mean to me. " +
+        messageContainer.innerHTML += "<br><br>My dearest " + nameValue + ", on this Valentine's Day, I want you to know how much you mean to me. " +
                            "Your smile brightens my darkest days, and your laughter fills my heart with joy. " +
                            "You are my precious gift, and I'm forever grateful for your love. " +
                            "Happy Valentine's Day, my little one. " +
